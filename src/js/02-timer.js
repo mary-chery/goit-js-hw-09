@@ -14,20 +14,22 @@ startEl.disabled = true;
 startEl.addEventListener('click', onTimeStart);
 
 
+
 const options = {
   enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-        if (selectedDates[0].getTime() < Date.now()) {
-            alert("Please choose a date in the future")
-        } else
-          selectedDate = selectedDates[0].getTime();
-            startEl.disabled = false;
+    if (selectedDates[0].getTime() < Date.now()) {
+      alert(
+        'Please, choose a date in the future ');
+    } else {
+      selectedDate = selectedDates[0].getTime();
+      startEl.disabled = false;
+    }
   },
 };
-
 
 flatpickr(textEl, options);
 

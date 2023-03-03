@@ -6,7 +6,7 @@ const delay = document.querySelector('[name="delay"]');
 const step = document.querySelector('[name="step"]');
 const amount = document.querySelector('[name="amount"]');
 
-form.addEventListener('click', onPromiseCreate);
+form.addEventListener('submit', onPromiseCreate);
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
