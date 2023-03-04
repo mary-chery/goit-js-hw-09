@@ -89,4 +89,5 @@ function onPromiseCreate(event) {
       });
       promiseDelay = delayEl + stepEl * i;
   }
+  event.target.reset(); 
 }
