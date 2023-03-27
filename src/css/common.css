@@ -16,3 +16,9 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+
+span.flatpickr-weekday{
+  color: rgba(60, 60, 67, 0.3);
+}

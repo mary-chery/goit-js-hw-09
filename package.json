@@ -18,9 +18,15 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "air-datepicker": "^3.3.5",
+    "calendar-dates": "^2.7.2",
+    "dycalendarjs": "^1.2.1",
     "flatpickr": "^4.6.13",
+    "js-datepicker": "^5.18.2",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.6"
+    "notiflix": "^3.2.6",
+    "v-calendar": "^3.0.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
